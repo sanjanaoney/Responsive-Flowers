@@ -55,6 +55,7 @@
     font-size: 3.2rem;
     
   }
+  
   .noto-serif-body-orange{
     font-family: "Noto Serif", serif;
     color: #E95A08;
@@ -205,11 +206,46 @@
     margin-bottom: 30px;
     
    }
+
+   /*Flower and Plants Section */
+     .badge{
+      position: absolute;
+      width: 286px;
+      height: 286px;
+      margin-top: -130.12px;
+      margin-bottom: -40px;
+      margin-left: 497px;
+      margin-right: 507px ;
+      z-index: 2;
+      gap: 0;
+      
+    } 
+     
+
+   .plant-lover-image{
+    width: 540px;
+    height: 597px;
+    margin-left: 150px;
+    margin-bottom: 133.87px;
+    z-index: 1;
+   }
+   .plants-lover-paragraph{
+    text-align: left;
+   }
+
+    .flower-plants-lover-section {
+      margin-top: 210.13px;
+       display: flex;
+       gap: 40px;
+    }
+    
+
+   
    
 
 
   /* responsive media query */
-  @media  screen and (max-width: 576px) {
+  @media  screen and (max-width: 576px){
    
      .nav-item li:not(.cart-link){
         display: none;
@@ -270,7 +306,7 @@
   margin: 0;                 
   width: 100%;              
 }
-/* .Plants-container
+.Plants-container
 {
   width: 100%;
   height: auto;
@@ -307,6 +343,7 @@
     margin-left: 0 auto;
     width: 171px;
     height: 196.5px;
+    display: block;
   }
   
   
@@ -321,23 +358,35 @@
     
    }
   
-  }
+  
    html,body {
     overflow-x: hidden;
     max-width: 100%;
   }
   
-    .plants-heading {
-    margin: 32px 16px;   
-    text-align: center;  
+    .plants-heading
+                    
+     {
+    margin: 24px auto;   
+    text-align: center; 
+      max-width: 90%;
+      font-size: 3.125rem;
+     
     }
 
-  .plants-heading p {
-    font-size: 0.9rem;   
-    line-height: 1.4;
-    margin-top: 8px;
+  .plants-heading p
+  .inter-font-three
+   {
+    /* font-size: 0.85rem; */
+    /* line-height: 1.5; */
+    /* margin-top: 8px; */
+    /* color: rgba(0,0,0,0.7); */
+    max-width: 320px;   
+    margin-left: auto;  
+    margin-right: auto; 
   }
-
+  
+  
   
   .Plants-container-two {
     grid-template-columns: repeat(2, 1fr); 
@@ -348,8 +397,59 @@
   .img-container {
     width: 100%; 
     margin-bottom: 16px; 
-  } */
+  } 
+  .flower-plants-lover-section {
+ max-width: none;
+max-height: none;
+
+  display: flex;
+  flex-direction: column;    
+  align-items: stretch;
+  width: 100%;
+  margin-left: 0; 
+  margin-right: 0;
+  margin-top: 450.5px ;          
+  padding: 0 16px;            
+  box-sizing: border-box;    
+  gap: 8px;   
+  }                
+
+.plant-lover-image {
+  width: 100%;
+  height: auto;
+  margin: 0;                 
 }
+.plant-lover-image img {
+  display: block;
+  width: 100%;                
+  height: auto;
+}
+
+.Flowers-plants-lover h2 {
+  margin: 0;  
+}               
+
+.plants-lover-paragraph {
+        
+  padding: 16px;                 
+  margin: 0;                
+}
+.plants-lover-paragraph li {  
+  margin: 8px 0;
+}
+.plants-lover-paragraph p {
+  margin: 0 16px;   
+                 
+}
+
+.badge { 
+  display: none; } 
+
+
+  
+}
+    
+
 
 
   
